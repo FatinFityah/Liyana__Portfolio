@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reach Me</title>
+    <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="card-container">
+        <div class="card-flipper flipped" id="cardFlipper">
+            
+            <!-- ABOUT PAGE (Front) -->
+            <div class="card-face card-front">
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html" class="active">About</a>
+                    <a href="#" class="nav-contact">Contact</a>
+                </nav>
+
+                <div class="about-content">
+                    <h1 class="section-title">ABOUT ME</h1>
+                    
+                    <div class="about-grid">
+                        <div class="about-section">
+                            <h3>Background</h3>
+                            <p>I am a passionate developer and designer with a keen interest in creating meaningful digital experiences not only for myself but also for everyone who may have similar interest with me. I find inspiration everywhere either stories, people, moments, and the world around me. With big dreams and a heart full of passion, I create with intention and chase projects that excite and challenge me.</p>
+                        </div>
+
+                        <div class="about-section">
+                            <h3>Education</h3>
+                            <ul>
+                                <li><i class="fa fa-graduation-cap" aria-hidden="true"></i>Computer Science Student</li>
+                                <li><i class="fa fa-laptop" aria-hidden="true"></i>Specialized in Multimedia Computing</li>
+                                <li><i class="fa fa-briefcase" aria-hidden="true"></i>Programming Enthusiast & Math Addict</li>
+                                <li><i class="fa fa-university" aria-hidden="true"></i>Universiti Malaysia Sarawak (UNIMAS)</li>
+                            </ul>
+                        </div>
+
+                        <div class="about-section">
+                            <h3>Interests</h3>
+                            <p>I’ve always been a writer in more than one way, whether I’m building something through code or shaping a story through words that reflect my imagination. I love spending my free time gaming and streaming, and I’m also the kind of person who genuinely enjoys solving problems for fun. Mathematics has always been a comfort space for me, something that keeps my mind challenged and inspired.</p>
+                        </div>
+
+                        <div class="about-section">
+                            <h3>Skills</h3>
+                            <ul>
+                                <li>Game Development (Unity)</li>
+                                <li>UI/UX Design (Figma)</li>
+                                <li>Web Development (HTML, CSS, JS)</li>
+                                <li>Mobile Development (Android Studio)</li>
+                                <li>Programming (C++, Python)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT PAGE (Back) -->
+            <div class="card-face card-back">
+                <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="#" class="nav-about">About</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </nav>
+
+                <div class="contact-content">
+                    <h1 class="section-title">GET IN TOUCH</h1>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <a href="mailto:puterinurliyana864@gmail.com">My Email</a>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Phone</h3>
+                                <a href="tel:+60178105824" class="contact-reveal">Click to reveal</a>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/puteri-nur-liyana-imanina-abdullah-2b172b2ab/" target="_blank">LinkedIn Profile</a>
+                            </div>
+
+                            <div class="contact-item">
+                                <h3>Location</h3>
+                                <p>Kota Samarahan, Sarawak.</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" required placeholder="Your name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" required placeholder="your@email.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea required placeholder="Your message here..."></textarea>
+                                </div>
+
+                                <button type="submit" class="submit-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <span class="arrow-up">↑</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
